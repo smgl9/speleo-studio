@@ -22,7 +22,8 @@
           "dipStrike": "Dip & Strike Calculator",
           "shortestPath": "Shortest path",
           "roseDiagram": "Rose Diagram",
-          "drive": "Google Drive sync"
+          "drive": "Google Drive sync",
+          "sketch": "Cave Sketch"
         },
         "help": {
           "name": "Help",
@@ -48,7 +49,8 @@
         "rotation": "Rotation tool",
         "fullscreen": "Enter / exit fullscreen",
         "raycasting": "Point selection",
-        "donate": "Donate Speleo Studio"
+        "donate": "Donate Speleo Studio",
+        "sketch": "Cave Sketch"
       },
       "lineColorModes": {
         "global": "Global color",
@@ -223,7 +225,6 @@
       "button": "Let's Get Started",
       "info": "The help menu contains the Speleo Studio user manual."
     },
-
     "explorer": {
       "menu": {
         "editCaveData": "Edit cave sheet",
@@ -553,6 +554,55 @@
         "degreesMinutesSeconds": "Degrees/Minutes/Seconds (DMS)",
         "dmsDescription": "e.g., 47°7'24.44\"N, 19°7'24.44\"E",
         "invalidDMSFormat": "Invalid DMS format. Use format like: 47°7'24.44\"N"
+      },
+      "sketch": {
+        "title": "Cave Sketch",
+        "drawingTools": "Drawing Tools",
+        "options": "Options",
+        "symbols": {
+          "dripstone": "Dripstone (stalactite / stalagmite)",
+          "speleothem": "Speleothem",
+          "helictite": "Helictite",
+          "calciteRaft": "Calcite raft",
+          "otherSpeleothem": "Other speleothem",
+          "breakdown": "Breakdown / boulder pile",
+          "sediment": "Sediment / mud",
+          "pavement": "Cave pavement",
+          "rock": "Rock",
+          "wall": "Passage wall",
+          "bedding": "Bedding plane",
+          "fault": "Fault",
+          "phreatic": "Phreatic tube",
+          "enlargement": "Passage enlargement",
+          "underwater": "Underwater / sump",
+          "co2": "CO₂ hazard",
+          "squeeze": "Squeeze / tight passage",
+          "danger": "Danger",
+          "rope": "Fixed rope / rigging",
+          "ladder": "Ladder",
+          "footPeg": "Foot peg",
+          "staples": "Staples"
+        },
+        "color": "Color",
+        "lineWidth": "Width",
+        "undo": "Undo",
+        "clear": "Clear",
+        "clearConfirm": "Clear the entire sketch? This cannot be undone.",
+        "export": "Export PNG",
+        "tools": {
+          "pen": "Freehand pen",
+          "line": "Straight line",
+          "eraser": "Eraser",
+          "symbol": "Place symbol"
+        },
+        "categories": {
+          "speleothems": "Speleothems",
+          "floor": "Floor / Fill",
+          "structure": "Structure",
+          "hazards": "Hazards",
+          "equipment": "Equipment"
+        },
+        "symbolsSection": "Cave Symbols"
       }
     },
     "editors": {

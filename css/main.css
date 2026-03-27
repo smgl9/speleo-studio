@@ -1882,3 +1882,174 @@ body {
 .google-drive-sync-status .loading {
   color: #04aa6d;
 }
+
+/* ============================================================
+   Cave Sketch Tool
+   ============================================================ */
+
+/* Transparent canvas overlay that sits on top of the 3-D viewport */
+.sketch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* passthrough by default; activated by JS */
+  z-index: 10;
+  cursor: crosshair;
+}
+
+/* When the sketch tool is active, capture pointer events */
+.sketch-overlay.sketch-active {
+  pointer-events: auto;
+}
+
+/* Panel sections */
+.sketch-section {
+  margin-bottom: 10px;
+}
+
+.sketch-section-label {
+  font-size: 11px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 3px;
+}
+
+/* Drawing tool button group */
+.sketch-btn-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sketch-icon-btn {
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.sketch-icon-btn:hover {
+  background: #3a3a3a;
+  border-color: #04aa6d;
+}
+
+.sketch-icon-btn.active {
+  background: #04aa6d;
+  border-color: #04aa6d;
+}
+
+/* Options row (color + width) */
+.sketch-options-inner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.sketch-options-inner label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.sketch-color-input {
+  width: 36px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+}
+
+.sketch-width-input {
+  width: 80px;
+  cursor: pointer;
+  accent-color: #04aa6d;
+}
+
+/* Symbol palette */
+.sketch-symbol-palette {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.sketch-symbol-category-label {
+  font-size: 11px;
+  color: #888888;
+  margin-bottom: 4px;
+}
+
+.sketch-symbol-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.sketch-symbol-btn {
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.sketch-symbol-btn:hover {
+  background: #3a3a3a;
+  border-color: #04aa6d;
+}
+
+.sketch-symbol-btn.active {
+  background: #04aa6d;
+  border-color: #059669;
+}
+
+/* Action buttons row */
+.sketch-action-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  border-top: 1px solid #333;
+  padding-top: 8px;
+}
+
+.sketch-text-btn {
+  flex: 1;
+  min-width: 70px;
+  padding: 6px 10px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.sketch-text-btn:hover:not(:disabled) {
+  background: #04aa6d;
+  border-color: #04aa6d;
+}
+
+.sketch-text-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

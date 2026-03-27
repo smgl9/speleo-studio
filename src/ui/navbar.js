@@ -23,6 +23,7 @@ import { RotationTool } from './tool/rotation.js';
 import { ShortestPathTool } from './tool/shortestpath.js';
 import { DipStrikeCalculatorTool } from './tool/dipstrike.js';
 import { RoseDiagramTool } from './tool/rosediagram.js';
+import { CaveSketchTool } from './tool/sketch.js';
 
 class NavigationBar {
 
@@ -214,6 +215,11 @@ class NavigationBar {
             name  : i18n.t('ui.navbar.menu.tools.drive'),
             icon  : 'icons/drive.svg',
             click : () => this.googleDriveSettings.show()
+          },
+          {
+            name  : i18n.t('ui.navbar.menu.tools.sketch'),
+            icon  : 'icons/draft.svg',
+            click : () => new CaveSketchTool().show()
           }
         ]
       },
@@ -350,6 +356,11 @@ class NavigationBar {
         tooltip : i18n.t('ui.navbar.tooltips.fullscreen'),
         icon    : 'icons/fullscreen.svg',
         click   : () => this.#toggleFullscreen()
+      },
+      {
+        tooltip : i18n.t('ui.navbar.tooltips.sketch'),
+        icon    : 'icons/draft.svg',
+        click   : () => new CaveSketchTool().show()
       },
       {
         tooltip : i18n.t('ui.navbar.tooltips.donate'),
