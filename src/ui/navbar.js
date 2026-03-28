@@ -219,7 +219,7 @@ class NavigationBar {
           {
             name  : i18n.t('ui.navbar.menu.tools.sketch'),
             icon  : 'icons/draft.svg',
-            click : () => new CaveSketchTool().show()
+            click : () => new CaveSketchTool(this.scene).show()
           }
         ]
       },
@@ -360,7 +360,7 @@ class NavigationBar {
       {
         tooltip : i18n.t('ui.navbar.tooltips.sketch'),
         icon    : 'icons/draft.svg',
-        click   : () => new CaveSketchTool().show()
+        click   : () => new CaveSketchTool(this.scene).show()
       },
       {
         tooltip : i18n.t('ui.navbar.tooltips.donate'),

@@ -612,7 +612,8 @@
           "equipment": "Felszerelés",
           "hydrology": "Vízrajz"
         },
-        "symbolsSection": "Barlangjelölések"
+        "symbolsSection": "Barlangjelölések",
+        "symbolSize": "Szimbólum méret"
       }
     },
     "editors": {

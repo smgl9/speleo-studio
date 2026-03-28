@@ -609,7 +609,8 @@
           "equipment": "Equipment",
           "hydrology": "Hydrology"
         },
-        "symbolsSection": "Cave Symbols"
+        "symbolsSection": "Cave Symbols",
+        "symbolSize": "Symbol size"
       }
     },
     "editors": {
