@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.32 102.32">
+  <defs><style>.b{fill:#f15a29;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.w{fill:#fff;}</style></defs>
+  <rect class="b" x="2" y="2" width="98.32" height="98.32" rx="12"/>
+  <!-- UIS column: stalactite and stalagmite meeting at the middle (diamond/hourglass) -->
+  <polygon class="w" points="51,8 32,51 70,51"/>
+  <polygon class="w" points="51,94 32,51 70,51"/>
+</svg>

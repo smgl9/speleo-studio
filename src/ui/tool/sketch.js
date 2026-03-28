@@ -387,50 +387,67 @@ export class CaveSketchTool {
   _getSymbolCategories() {
     return [
       {
+        // UIS Category 1 – Speleothems (secondary mineral deposits)
         labelKey : 'ui.panels.sketch.categories.speleothems',
         symbols  : [
-          { icon: 'icons/dripstone.svg', labelKey: 'ui.panels.sketch.symbols.dripstone' },
-          { icon: 'icons/speleothem.svg', labelKey: 'ui.panels.sketch.symbols.speleothem' },
-          { icon: 'icons/helictite.svg', labelKey: 'ui.panels.sketch.symbols.helictite' },
-          { icon: 'icons/calcite_raft.svg', labelKey: 'ui.panels.sketch.symbols.calciteRaft' },
-          { icon: 'icons/other_speleothem.svg', labelKey: 'ui.panels.sketch.symbols.otherSpeleothem' }
+          { icon: 'icons/uis_stalactite.svg',  labelKey: 'ui.panels.sketch.symbols.stalactite' },
+          { icon: 'icons/uis_stalagmite.svg',  labelKey: 'ui.panels.sketch.symbols.stalagmite' },
+          { icon: 'icons/uis_column.svg',      labelKey: 'ui.panels.sketch.symbols.column' },
+          { icon: 'icons/helictite.svg',       labelKey: 'ui.panels.sketch.symbols.helictite' },
+          { icon: 'icons/uis_cave_pearl.svg',  labelKey: 'ui.panels.sketch.symbols.cavePearl' },
+          { icon: 'icons/uis_moonmilk.svg',    labelKey: 'ui.panels.sketch.symbols.moonmilk' },
+          { icon: 'icons/calcite_raft.svg',    labelKey: 'ui.panels.sketch.symbols.calciteRaft' }
         ]
       },
       {
+        // UIS Category 2 – Hydrology (water features)
+        labelKey : 'ui.panels.sketch.categories.hydrology',
+        symbols  : [
+          { icon: 'icons/uis_stream.svg',      labelKey: 'ui.panels.sketch.symbols.stream' },
+          { icon: 'icons/uis_lake.svg',        labelKey: 'ui.panels.sketch.symbols.lake' },
+          { icon: 'icons/uis_sump.svg',        labelKey: 'ui.panels.sketch.symbols.sump' },
+          { icon: 'icons/uis_waterfall.svg',   labelKey: 'ui.panels.sketch.symbols.waterfall' }
+        ]
+      },
+      {
+        // UIS Category 3 – Clastic sediments / floor deposits
         labelKey : 'ui.panels.sketch.categories.floor',
         symbols  : [
-          { icon: 'icons/breakdown.svg', labelKey: 'ui.panels.sketch.symbols.breakdown' },
-          { icon: 'icons/sediment.svg', labelKey: 'ui.panels.sketch.symbols.sediment' },
-          { icon: 'icons/pavement.svg', labelKey: 'ui.panels.sketch.symbols.pavement' },
-          { icon: 'icons/rock.svg', labelKey: 'ui.panels.sketch.symbols.rock' },
-          { icon: 'icons/wall.svg', labelKey: 'ui.panels.sketch.symbols.wall' }
+          { icon: 'icons/breakdown.svg',       labelKey: 'ui.panels.sketch.symbols.breakdown' },
+          { icon: 'icons/uis_clay.svg',        labelKey: 'ui.panels.sketch.symbols.clay' },
+          { icon: 'icons/uis_sand.svg',        labelKey: 'ui.panels.sketch.symbols.sand' },
+          { icon: 'icons/uis_gravel.svg',      labelKey: 'ui.panels.sketch.symbols.gravel' }
         ]
       },
       {
+        // UIS Category 4 – Geological structure / passage morphology
         labelKey : 'ui.panels.sketch.categories.structure',
         symbols  : [
-          { icon: 'icons/bedding.svg', labelKey: 'ui.panels.sketch.symbols.bedding' },
-          { icon: 'icons/fault.svg', labelKey: 'ui.panels.sketch.symbols.fault' },
-          { icon: 'icons/phreatic.svg', labelKey: 'ui.panels.sketch.symbols.phreatic' },
-          { icon: 'icons/enlargement.svg', labelKey: 'ui.panels.sketch.symbols.enlargement' }
+          { icon: 'icons/bedding.svg',         labelKey: 'ui.panels.sketch.symbols.bedding' },
+          { icon: 'icons/fault.svg',           labelKey: 'ui.panels.sketch.symbols.fault' },
+          { icon: 'icons/uis_scallop.svg',     labelKey: 'ui.panels.sketch.symbols.scallop' },
+          { icon: 'icons/uis_pit.svg',         labelKey: 'ui.panels.sketch.symbols.pit' },
+          { icon: 'icons/enlargement.svg',     labelKey: 'ui.panels.sketch.symbols.enlargement' }
         ]
       },
       {
+        // UIS Category 5 – Hazards
         labelKey : 'ui.panels.sketch.categories.hazards',
         symbols  : [
-          { icon: 'icons/underwater.svg', labelKey: 'ui.panels.sketch.symbols.underwater' },
-          { icon: 'icons/co2.svg', labelKey: 'ui.panels.sketch.symbols.co2' },
-          { icon: 'icons/squeeze.svg', labelKey: 'ui.panels.sketch.symbols.squeeze' },
-          { icon: 'icons/danger.svg', labelKey: 'ui.panels.sketch.symbols.danger' }
+          { icon: 'icons/underwater.svg',      labelKey: 'ui.panels.sketch.symbols.underwater' },
+          { icon: 'icons/co2.svg',             labelKey: 'ui.panels.sketch.symbols.co2' },
+          { icon: 'icons/squeeze.svg',         labelKey: 'ui.panels.sketch.symbols.squeeze' },
+          { icon: 'icons/danger.svg',          labelKey: 'ui.panels.sketch.symbols.danger' }
         ]
       },
       {
+        // UIS Category 6 – Equipment / rigging
         labelKey : 'ui.panels.sketch.categories.equipment',
         symbols  : [
-          { icon: 'icons/rope.svg', labelKey: 'ui.panels.sketch.symbols.rope' },
-          { icon: 'icons/ladder.svg', labelKey: 'ui.panels.sketch.symbols.ladder' },
-          { icon: 'icons/foot_peg.svg', labelKey: 'ui.panels.sketch.symbols.footPeg' },
-          { icon: 'icons/staples.svg', labelKey: 'ui.panels.sketch.symbols.staples' }
+          { icon: 'icons/rope.svg',            labelKey: 'ui.panels.sketch.symbols.rope' },
+          { icon: 'icons/ladder.svg',          labelKey: 'ui.panels.sketch.symbols.ladder' },
+          { icon: 'icons/foot_peg.svg',        labelKey: 'ui.panels.sketch.symbols.footPeg' },
+          { icon: 'icons/staples.svg',         labelKey: 'ui.panels.sketch.symbols.staples' }
         ]
       }
     ];

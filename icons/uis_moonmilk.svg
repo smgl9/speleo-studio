@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.32 102.32">
+  <defs><style>.b{fill:#f15a29;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.w{fill:#fff;}</style></defs>
+  <rect class="b" x="2" y="2" width="98.32" height="98.32" rx="12"/>
+  <!-- UIS moonmilk: irregular cloud-like soft white deposits -->
+  <ellipse class="w" cx="30" cy="40" rx="22" ry="14"/>
+  <ellipse class="w" cx="68" cy="36" rx="24" ry="13"/>
+  <ellipse class="w" cx="22" cy="68" rx="16" ry="11"/>
+  <ellipse class="w" cx="55" cy="72" rx="26" ry="14"/>
+  <ellipse class="w" cx="86" cy="65" rx="14" ry="10"/>
+</svg>
