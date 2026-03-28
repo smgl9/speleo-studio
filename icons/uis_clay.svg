@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.32 102.32">
+  <defs><style>.b{fill:#f15a29;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.w{fill:#fff;}</style></defs>
+  <rect class="b" x="2" y="2" width="98.32" height="98.32" rx="12"/>
+  <!-- UIS clay/mud: rows of small upward-pointing filled triangles -->
+  <!-- Row 1 (top) -->
+  <polygon class="w" points="18,30 11,18 25,18"/>
+  <polygon class="w" points="40,30 33,18 47,18"/>
+  <polygon class="w" points="62,30 55,18 69,18"/>
+  <polygon class="w" points="84,30 77,18 91,18"/>
+  <!-- Row 2 -->
+  <polygon class="w" points="29,52 22,40 36,40"/>
+  <polygon class="w" points="51,52 44,40 58,40"/>
+  <polygon class="w" points="73,52 66,40 80,40"/>
+  <!-- Row 3 -->
+  <polygon class="w" points="18,74 11,62 25,62"/>
+  <polygon class="w" points="40,74 33,62 47,62"/>
+  <polygon class="w" points="62,74 55,62 69,62"/>
+  <polygon class="w" points="84,74 77,62 91,62"/>
+  <!-- Row 4 (bottom) -->
+  <polygon class="w" points="29,96 22,84 36,84"/>
+  <polygon class="w" points="51,96 44,84 58,84"/>
+  <polygon class="w" points="73,96 66,84 80,84"/>
+</svg>

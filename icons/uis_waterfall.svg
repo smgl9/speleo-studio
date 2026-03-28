@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.32 102.32">
+  <defs><style>.b{fill:#f15a29;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.w{fill:none;stroke:#fff;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+  <rect class="b" x="2" y="2" width="98.32" height="98.32" rx="12"/>
+  <!-- UIS waterfall: stepped cascade with pool at bottom -->
+  <line class="w" x1="10" y1="22" x2="42" y2="22"/>
+  <line class="w" x1="42" y1="22" x2="42" y2="48"/>
+  <line class="w" x1="42" y1="48" x2="72" y2="48"/>
+  <line class="w" x1="72" y1="48" x2="72" y2="72"/>
+  <!-- pool / splashing water at bottom -->
+  <path class="w" d="M14,82 c10,-8 20,-8 28,0 c8,8 18,8 26,0 c8,-8 16,-8 20,0"/>
+</svg>

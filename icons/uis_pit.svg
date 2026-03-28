@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.32 102.32">
+  <defs><style>.b{fill:#f15a29;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.w{fill:none;stroke:#fff;stroke-width:4px;stroke-miterlimit:10;}.d{fill:#fff;}</style></defs>
+  <rect class="b" x="2" y="2" width="98.32" height="98.32" rx="12"/>
+  <!-- UIS pit/shaft plan view: ellipse with radial depth tick marks -->
+  <ellipse class="w" cx="51" cy="54" rx="38" ry="22"/>
+  <!-- Depth tick marks (indicate descent direction) -->
+  <line x1="51" y1="32" x2="51" y2="16" stroke="#fff" stroke-width="3"/>
+  <line x1="51" y1="76" x2="51" y2="92" stroke="#fff" stroke-width="3"/>
+  <line x1="13" y1="54" x2="6"  y2="54" stroke="#fff" stroke-width="3"/>
+  <line x1="89" y1="54" x2="96" y2="54" stroke="#fff" stroke-width="3"/>
+  <!-- Arrow heads showing depth direction (into the pit) -->
+  <polygon class="d" points="51,16 45,28 57,28"/>
+  <polygon class="d" points="51,92 45,80 57,80"/>
+</svg>

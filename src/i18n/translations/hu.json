@@ -22,7 +22,8 @@
           "dipStrike": "Dőlés és irány számító",
           "shortestPath": "Legrövidebb út",
           "roseDiagram": "Rózsa diagram",
-          "drive": "Google Drive szinkronizálás"
+          "drive": "Google Drive szinkronizálás",
+          "sketch": "Barlangrajz"
         },
         "help": {
           "name": "Súgó",
@@ -48,7 +49,8 @@
         "rotation": "Forgatás eszköz",
         "fullscreen": "Teljes képernyő be/kikapcsolása",
         "raycasting": "Pont kiválasztás",
-        "donate": "Speleo Studio támogatása"
+        "donate": "Speleo Studio támogatása",
+        "sketch": "Barlangrajz"
       },
       "lineColorModes": {
         "global": "Globális",
@@ -223,7 +225,6 @@
       "button": "Kezdjük el",
       "info": "A Súgó menüben megtalálható a Speleo Studio felhasználói kézikönyve."
     },
-
     "explorer": {
       "menu": {
         "editCaveData": "Adatlap szerkesztése",
@@ -556,6 +557,63 @@
         "degreesMinutesSeconds": "Fokok/Percek/Másodpercek (DMS)",
         "dmsDescription": "pl. 47°7'24.44\"N, 19°7'24.44\"E",
         "invalidDMSFormat": "Érvénytelen DMS formátum. Használja a következő formátumot: 47°7'24.44\"N"
+      },
+      "sketch": {
+        "title": "Barlangrajz",
+        "drawingTools": "Rajzeszközök",
+        "options": "Beállítások",
+        "symbols": {
+          "stalactite": "Stalaktit",
+          "stalagmite": "Sztalagmit",
+          "column": "Oszlop",
+          "helictite": "Heliktit",
+          "cavePearl": "Barlanggyöngy",
+          "moonmilk": "Barlangitej (moonmilk)",
+          "calciteRaft": "Kalcitlemezkék",
+          "stream": "Föld alatti patak",
+          "lake": "Föld alatti tó / pocsolya",
+          "sump": "Szifon",
+          "waterfall": "Vízesés",
+          "breakdown": "Omladék / kőtömb",
+          "clay": "Agyag / iszap",
+          "sand": "Homok",
+          "gravel": "Kavics",
+          "bedding": "Réteglapok",
+          "fault": "Vető",
+          "scallop": "Kagylók (eróziós)",
+          "pit": "Kürtő / akna",
+          "enlargement": "Folyosó tágulás",
+          "underwater": "Víz alatti / szifon veszély",
+          "co2": "CO₂ veszély",
+          "squeeze": "Szűkület",
+          "danger": "Veszély",
+          "rope": "Rögzített kötél",
+          "ladder": "Létra",
+          "footPeg": "Lábcsavar",
+          "staples": "Kapocs"
+        },
+        "color": "Szín",
+        "lineWidth": "Vastagság",
+        "undo": "Visszavonás",
+        "clear": "Törlés",
+        "clearConfirm": "Törli az egész vázlatot? Ez nem vonható vissza.",
+        "export": "PNG exportálás",
+        "tools": {
+          "pen": "Szabadkézi rajz",
+          "line": "Egyenes vonal",
+          "eraser": "Radír",
+          "symbol": "Jelölés elhelyezése"
+        },
+        "categories": {
+          "speleothems": "Cseppkövek",
+          "floor": "Aljzat / Kitöltés",
+          "structure": "Szerkezet",
+          "hazards": "Veszélyek",
+          "equipment": "Felszerelés",
+          "hydrology": "Vízrajz"
+        },
+        "symbolsSection": "Barlangjelölések",
+        "symbolSize": "Szimbólum méret"
       }
     },
     "editors": {
@@ -1253,7 +1311,6 @@
     "namesDescription": {
       "bedding": "Lehetővé teszi a rétegdőlés megadását"
     },
-
     "params": {
       "dip": "dőlés",
       "strike": "irány",
